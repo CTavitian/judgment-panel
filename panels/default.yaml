@@ -1,0 +1,6 @@
+name: field-ops-panel
+judges: [policy, safety, cost_sla]
+rules:
+  any_block_blocks: true
+  unanimous_commit_required: true
+  split_holds_and_escalates: true

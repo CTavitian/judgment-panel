@@ -1,0 +1,22 @@
+{
+  "name": "judgment-panel",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Multi-judge commit/hold/block router with evidence ledger for irreversible ops actions",
+  "license": "MIT",
+  "type": "module",
+  "bin": { "judgment-panel": "./dist/cli.js" },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "decide": "tsx src/cli.ts",
+    "test": "vitest run"
+  },
+  "dependencies": { "yaml": "^2.8.1" },
+  "devDependencies": {
+    "@types/node": "^22.18.6",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  },
+  "engines": { "node": ">=20" }
+}

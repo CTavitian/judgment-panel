@@ -1,0 +1,14 @@
+{
+  "id": "case-split-1",
+  "action": "propose_reschedule",
+  "irreversible": false,
+  "statutory": false,
+  "estimated_cost_aud": 900,
+  "sla_risk": "low",
+  "evidence": ["policy:ok", "safety:ok", "cost:watch"],
+  "planted": {
+    "policy": "commit",
+    "safety": "commit",
+    "cost_sla": "hold"
+  }
+}

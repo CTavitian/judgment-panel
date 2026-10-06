@@ -1,0 +1,9 @@
+{
+  "id": "case-block-1",
+  "action": "close_statutory_certificate",
+  "irreversible": true,
+  "statutory": true,
+  "estimated_cost_aud": 800,
+  "sla_risk": "medium",
+  "evidence": ["policy:statutory", "safety:ok", "cost:ok"]
+}

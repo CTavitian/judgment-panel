@@ -1,0 +1,9 @@
+{
+  "id": "case-safety-1",
+  "action": "close_defect",
+  "irreversible": true,
+  "statutory": false,
+  "estimated_cost_aud": 400,
+  "sla_risk": "medium",
+  "evidence": ["policy:ok", "safety:skip-inspection", "cost:ok"]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "case-commit-1",
+  "action": "draft_triage_note",
+  "irreversible": false,
+  "statutory": false,
+  "estimated_cost_aud": 120,
+  "sla_risk": "low",
+  "evidence": ["policy:draft-ok", "safety:no-refuse", "cost:low"]
+}
