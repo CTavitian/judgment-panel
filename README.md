@@ -1,6 +1,6 @@
 # judgment-panel
 
-Route irreversible field-ops actions through a small panel of deterministic judges (policy, safety, cost/SLA). Votes are `commit`, `hold`, or `block`. Disagreement escalates — votes are never auto-merged into a silent yes.
+Route irreversible field-ops actions through a small panel of deterministic judges (policy, safety, cost/SLA). Votes are `commit`, `hold`, or `block`. Disagreement escalates, and votes are never auto-merged into a silent yes.
 
 ## Why
 
@@ -28,6 +28,10 @@ If judges disagree on an irreversible or statutory action, stop. Average scores 
 
 - Not a live multi-model debate product
 - Default judges are deterministic mocks for CI; swap adapters later if needed
+
+## Status
+
+A learning project. The example data is made up.
 
 ## Licence
 
